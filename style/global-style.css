@@ -1,0 +1,134 @@
+@CHARSET "UTF-8";
+
+/****** #5919B8 est la couleur violette du logo *****/
+
+body{
+  background-color: #FFFFF7;
+}
+
+a{
+  color: #000000;
+  font-family: 'Helvetica';
+  font-size: 120%;
+}
+
+nav
+{
+  color: #5919B8;
+  border-radius: 8px;
+  padding: 0 !important;
+  border: 1px solid #FFFFF7;
+  background-color: #FFFFF7;
+  border-color: #989898;
+}
+.panel-default > .panel-heading, .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus 
+{
+  color: #fff;
+  background-color: #5919B8;
+  border-radius: 8px;
+  border-color: #989898;
+
+}
+.page-header{
+  border-color: #989898;
+}
+
+.glyphicon{
+  color:#000
+}
+
+.firstLetter{
+font-family:'police-manuscrite'; 
+font-size:200%; 
+color:#5919B8;
+
+
+}
+
+@font-face {
+	font-family: 'police-manuscrite';
+	src: url('GreatVibes-Regular.otf');
+}
+
+.jumbotron p {
+
+  font-size: 16px;
+  font-family: 'Helvetica';
+  text-align: justify;
+}
+
+.list-group-item{
+    font-family: 'Helvetica';
+
+}
+h1{
+  font-family: 'police-manuscrite';
+}
+
+
+button{
+  background-color:#5919B8;
+  border-color: #5919B8;
+}
+
+#logo{
+
+  height:180px ;
+  margin-bottom: -20px;
+  margin-top: -40px;
+}
+
+#piece{
+     width:320px; /* you can use % */
+    height: auto;
+}
+
+/*carrousel ( les 3 images qui defilent sur la page d'accueil)*/
+.myCarousel .item{
+
+  width: 100%;
+  height: 500px;
+  background-color: #777;
+  border-radius: 55px 55px 55px 55px;
+}
+  
+/*galerie de photos*/
+#galerie ul {
+  padding:0 0 0 0;
+  margin:0 0 0 0;
+  cursor: pointer;
+  margin-bottom:25px;
+  list-style:none;
+}
+#galerie li{
+ cursor: pointer;
+ margin-bottom:25px;
+ list-style:none;
+}
+#galerie img {
+  cursor: pointer;
+}
+
+/*modal*/
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px; /* Adjusts for spacing */
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+
+
+
