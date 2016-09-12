@@ -17,7 +17,7 @@ session_start();
 
 <body>
 
-	
+
 	<div class="container">
 
 		<!--Logo en haut de page-->
@@ -28,7 +28,7 @@ session_start();
 		</header>
 
 		<div class="row col-sm-12" >
-			
+
 			<!--Menu-->
 			<nav class="col-lg-2 col-md-2 col-sm-12 col-xs-12" id="menu">
 				<ul class="nav nav-pills nav-stacked" >
@@ -43,41 +43,41 @@ session_start();
 
 			<section class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
 				<div class="jumbotron">
-					<h1>Réserve ta place ! </h1><br><br><br>
+					<h1>Rejoins-nous vite </h1><br><br><br>
 
 					<div class="row">
 						<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-							<p><!--Tu veux en savoir plus sur l’association ? Tu veux nous rejoindre ? -->
-								Tu veux <b>réserver ta place</b> pour notre prochaine représentation ? Alors tu es au bon endroit.
+							<p>Tu veux en savoir plus sur l’association ? Tu veux nous rejoindre ?</p>
+								<!-- Tu veux <b>réserver ta place</b> pour notre prochaine représentation ? Alors tu es au bon endroit.
 								Tu peux nous retrouver sur scène le <b>2, 3 et 4 mars</b>.<br><br>
 								Cette année Yé Mistikrik? a selectioné pour vous la comédie policière: <b>Piège pour un homme seul</b> de Robert Thomas.<br>
-								Un jeune marié déplore la disparition de sa femme. Alors qu'il ne l'attendait plus, elle revient. Mais il ne la reconnaît plus ... Petit-à-petit, la toile se tisse ! Piège ou folie ? 
-								<br><br>
+								Un jeune marié déplore la disparition de sa femme. Alors qu'il ne l'attendait plus, elle revient. Mais il ne la reconnaît plus ... Petit-à-petit, la toile se tisse ! Piège ou folie ?
+								 <br><br>
 								Une histoire rocambolesque, où le rire et le mystère se croisent au fil des minutes et où le spectateur a parfois lui aussi l'impression de se retrouver dans le piège...
-								<!--Si tu veux juste discuter avec nous il te suffit de remplir le formulaire ! -->
-								<br><br>Pour réserver, remplit le formulaire et n’oublie pas de bien indiquer <b>ton nom et 
+								Si tu veux juste discuter avec nous il te suffit de remplir le formulaire !
+								<br><br>Pour réserver, remplit le formulaire et n’oublie pas de bien indiquer <b>ton nom et
 								prénom ainsi que la date choisie</b>.<br><br> <b>Tarifs:</b><br>
 								- Etudiant: 5€<br>
 								- Autre: 8€ <br><br></p>
-								
-								
+ -->
+
 
 							</div>
 
-							<img class="col-lg-5 col-md-5 col-sm-12 col-xs-12" src="images/piece.jpg" alt="piece" id="piece" style="height:50%"> 
+							<!-- <img class="col-lg-5 col-md-5 col-sm-12 col-xs-12" src="images/piece.jpg" alt="piece" id="piece" style="height:50%"> -->
 						</div>
-						
-						
-						<p>Pour le règlement ? C’est très simple, tu peux nous 
+
+						<!--
+						<p>Pour le règlement ? C’est très simple, tu peux nous
 							retrouver sur le campus ou tu payeras sur place.</p><br><br><br>
-							
+							 -->
 
 							<!--Formulaire d'envoi de mail-->
 							<form id="form" action="form.php" method="post" class="form-horizontal" novalidate="true"  role="form">
 								<div><input name="my-contact-form" type="hidden" value="1"  class="form-control"></div>
-								
+
 								<fieldset>
-									<legend>N'hesite pas à résever !</legend>
+									<legend>Contacte nous </legend> -->
 
 									<!--Nom-->
 									<div class="form-group">
@@ -121,7 +121,7 @@ session_start();
 							</form>
 
 							<div name="message">
-								<?php 
+								<?php
 
 								if(isset($_GET['email']) && $_GET['email']== 'send'){
 									?><div class="alert alert-success" role="alert">Mail envoyé !</div><?php

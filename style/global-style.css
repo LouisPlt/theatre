@@ -78,11 +78,6 @@ button{
   margin-top: -40px;
 }
 
-#piece{
-     width:320px; /* you can use % */
-    height: auto;
-}
-
 /*carrousel ( les 3 images qui defilent sur la page d'accueil)*/
 .myCarousel .item{
 
